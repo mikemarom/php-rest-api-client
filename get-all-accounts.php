@@ -5,7 +5,7 @@
 $curl_connection=curl_init();
 
 // Set up endpoint
-curl_setopt($curl_connection,CURLOPT_URL, 'https://api.zippopotam.us/us/90210');
+curl_setopt($curl_connection,CURLOPT_URL, 'https://marom.dev/php-rest-api-server/account/');
 
 // Return the response of the cURL command as a string
 curl_setopt($curl_connection,CURLOPT_RETURNTRANSFER, true);
